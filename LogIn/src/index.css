@@ -1,0 +1,96 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+  padding:  0;
+}
+
+.header-fluid {
+  height: 43px;
+  background: -moz-repeating-linear-gradient(#D0BA7E, #A57D4C);
+  width: 100%;
+}
+
+.navbar {
+  height: 88px;
+  background: linear-gradient(#131313, #1C1C1C, #1C1C1C);
+  width: 100%;
+  color: #A98351;
+}
+
+.nav{
+  height: 55px;
+}
+
+.searching {
+  width: 300px;
+  height: 2rem;
+}
+
+.img-fluid {
+  height: 80px;
+  width: 85px;
+
+}
+
+li, a{
+  list-style: none;
+  text-decoration: none;
+  color: #CEB77C;
+}
+
+li :hover {
+  color: #A98351;
+}
+
+.form-control {
+  border-radius: 50px;
+}
+
+.newa-logo {
+  background:#292929;
+  width: 210.53px;
+  height: 200.53px;
+  left: 596px;
+  top: 163px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.form-container {
+  border: 6px solid #C6B178;
+  background: #292929;
+  margin-top: 9rem;
+  color: white;
+  width: 1000px;
+  margin-left: 200px;
+  height: 450px;
+  border-radius: 20px;
+
+}
+
+input, .links {
+  border-radius: 8px;
+  width: 300px;
+}
+
+hr {
+
+  width: 250px;
+  transform: rotate(90deg);
+  border: 3px solid white;
+  margin-top: 50px;
+}
+
+.button {
+  width: 300px;
+}
+
+.loginLogo, .signupLogo, .fb, .google {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 2px;
+}

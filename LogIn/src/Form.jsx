@@ -21,14 +21,13 @@ export default function Form() {
                             <input type="email" id='email' className='form-control' placeholder='Email or Phone number' />
                             <small id="emailHelpId" className="form-text text-danger">Email Cannot be empty</small>
 
-
                             <label htmlFor="password" className='form-label'>Password</label>
                             <input type="password" id='password' className='form-control' placeholder='Password'/>
                             <small id="passwordHelpId" className="form-text text-danger">Password Cannot be empty</small>
                         </div>
                         <hr />
                         <div className="links d-flex flex-column justify-content-between align-items-center gap-4">
-                                <a href="index.html"><button type="submit" className='button btn btn-outline-light fs-5'    id='submit'>Log In</button></a>                            <h5>OR</h5>
+                                <a href="/index.html"><button type="submit" className='button btn btn-outline-light fs-5'    id='submit'>Log In</button></a>                            <h5>OR</h5>
                                 <button className='button btn btn-outline-light fs-5'><img src={fb} alt="Facebook" className='fb' />Facebook</button>
                                 <button className='button btn btn-outline-light fs-5'><img src={google} alt="google" className='google' />Google</button>
                         </div>

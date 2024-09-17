@@ -3,62 +3,74 @@
             {
                 "id": 1,
                 "name": "Momo",
-                "img": "https://scontent.fktm19-1.fna.fbcdn.net/v/t1.15752-9/417544740_394574869654416_1846132688704455589_n.png?stp=dst-png_s403x403&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=BBP79AyXNx8Q7kNvgHUJ79r&_nc_ht=scontent.fktm19-1.fna&cb_e2o_trans=t&oh=03_Q7cD1QGpSAnxafakFmlBGKitohrDBII9yR0lZv1uNH53gj4tSw&oe=66761847"
+                "img": "https://www.thedailymeal.com/img/gallery/what-makes-nepalese-momo-unique/intro-1671505255.jpg",
+                "price" : 100
             },
             {
                 "id": 2,
                 "name": "Sel Roti",
-                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/436069011_963466085507641_4218559379521083835_n.png?stp=dst-png_p403x403&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=NK5eQEkGQUcQ7kNvgFWX_oJ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QGc9XyYh9xJEBWZINiqfvyiHjpDK-aP_vwbmh0ZePCLug&oe=6675FA4C"
+                "img": "https://sewapoint.com/image-categories/image-1719823291207-1_HF_D_m5XwWDN-5nJGQBs2w.jpg",
+                "price": 50
             },
             {
                 "id": 3,
                 "name": "Dal Bhat",
-                "img": "https://media.istockphoto.com/id/655381728/photo/traditional-nepalese-food-thali-in-a-restaurant.jpg?s=612x612&w=0&k=20&c=Eg528QlhzJHDl7cLcBNXro1p0SRs42O1bkqU_qNAs7U="
+                "img": "https://media.istockphoto.com/id/655381728/photo/traditional-nepalese-food-thali-in-a-restaurant.jpg?s=612x612&w=0&k=20&c=Eg528QlhzJHDl7cLcBNXro1p0SRs42O1bkqU_qNAs7U=",
+                "price": 250
             },
             {
                 "id": 4,
                 "name": "Samay Baji",
-                "img": "https://media.istockphoto.com/id/692690964/photo/nepali-newari-khaja-set.jpg?s=612x612&w=0&k=20&c=s9I83pf8eJyOVNuF08j-vVDXEAv4fKX30_42OSiSZ1o="
+                "img": "https://media.istockphoto.com/id/692690964/photo/nepali-newari-khaja-set.jpg?s=612x612&w=0&k=20&c=s9I83pf8eJyOVNuF08j-vVDXEAv4fKX30_42OSiSZ1o=",
+                "price": 150
             },
             {
                 "id": 5,
                 "name": "Chowmein",
-                "img": "https://media.istockphoto.com/id/1419304792/photo/chinese-noodles-chowmein-on-a-plate-with-a-fork-hot-and-fresh-chow-mein-in-nepali-style-chow.jpg?s=612x612&w=0&k=20&c=3wELfiGgv6hfDHmzcBFmR2FqIr7uiNNNbCk-sC4ydQ8="
+                "img": "https://media.istockphoto.com/id/1419304792/photo/chinese-noodles-chowmein-on-a-plate-with-a-fork-hot-and-fresh-chow-mein-in-nepali-style-chow.jpg?s=612x612&w=0&k=20&c=3wELfiGgv6hfDHmzcBFmR2FqIr7uiNNNbCk-sC4ydQ8=",
+                "price": 100
             },
             {
                 "id": 6,
                 "name": "Chicken Curry",
-                "img": "https://media.istockphoto.com/id/1170729895/photo/indian-butter-chicken-horizontal-photo.jpg?s=612x612&w=0&k=20&c=4bZViynoVnP1HaWHIY1k5FvW-dj9DM2EOMHbKnAqYZ4="
+                "img": "https://media.istockphoto.com/id/1170729895/photo/indian-butter-chicken-horizontal-photo.jpg?s=612x612&w=0&k=20&c=4bZViynoVnP1HaWHIY1k5FvW-dj9DM2EOMHbKnAqYZ4=",
+                "price": 100
             },
             {
                 "id": 7,
                 "name": "Aalu Tama",
-                "img": "https://www.foodpleasureandhealth.com/wp-content/uploads/2015/10/alooboditama.jpg"
+                "img": "https://www.foodpleasureandhealth.com/wp-content/uploads/2015/10/alooboditama.jpg",
+                "price": 100
             },
             {
                 "id": 8,
                 "name": "Juju Dhau",
-                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438159146_975724557110824_338341312589366585_n.png?stp=dst-png_p403x403&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=uY6TL2ECcAQQ7kNvgG99sKS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QEA4Ljpgv16WkIH7EjwH5-uq6mkcoTHEcBPvES2tCrVXg&oe=667618C6"
+                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438159146_975724557110824_338341312589366585_n.png?stp=dst-png_p403x403&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=uY6TL2ECcAQQ7kNvgG99sKS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QEA4Ljpgv16WkIH7EjwH5-uq6mkcoTHEcBPvES2tCrVXg&oe=667618C6",
+                "price": 100
             },
             {
                 "id": 9,
                 "name": "Yomari",
-                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438154341_1535974377261403_4019024043565508110_n.png?stp=dst-png_p403x403&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rIhcjFut1C8Q7kNvgGyIF0-&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QGmkRN0KHcGWqWYgxDPBFMtNA8LgOJhEbVIv7KCC5DEVg&oe=6676111B"
+                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438154341_1535974377261403_4019024043565508110_n.png?stp=dst-png_p403x403&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rIhcjFut1C8Q7kNvgGyIF0-&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QGmkRN0KHcGWqWYgxDPBFMtNA8LgOJhEbVIv7KCC5DEVg&oe=6676111B",
+                "price": 100
             },
             {
                 "id": 10,
                 "name": "Chyang",
-                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/441908734_1129606031590570_3907422890256768001_n.png?stp=dst-png_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pe15tkZMzMsQ7kNvgFB0rxz&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QFbDHsw5YByOC8Fvw-PfYJjlwHW7kBSxtdFOF2gz2evlQ&oe=66761C55"
+                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/441908734_1129606031590570_3907422890256768001_n.png?stp=dst-png_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=pe15tkZMzMsQ7kNvgFB0rxz&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QFbDHsw5YByOC8Fvw-PfYJjlwHW7kBSxtdFOF2gz2evlQ&oe=66761C55",
+                "price": 100
             },
             {
                 "id": 11,
                 "name": "Lassi",
-                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438158962_946072340538961_8346701106323467756_n.png?stp=dst-png_s403x403&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eljnRvfhA5UQ7kNvgHvslGW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QGZjQN6O--IgWutVdSyiQHfPcMD5h_W40jvxdHVw-gAAA&oe=66761A3E"
+                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438158962_946072340538961_8346701106323467756_n.png?stp=dst-png_s403x403&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=eljnRvfhA5UQ7kNvgHvslGW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QGZjQN6O--IgWutVdSyiQHfPcMD5h_W40jvxdHVw-gAAA&oe=66761A3E",
+                "price": 100
             },
             {
                 "id": 12,
                 "name": "Local Rakshi",
-                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438154573_1651066629046171_7963007607891594700_n.png?stp=dst-png_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=F1e4j0rNpG0Q7kNvgHx5_yi&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QFK8ruqqjXG6Yds72L6pwq0y7sBJSbMhNds3Qh0eV6nlA&oe=66763655"
+                "img": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438154573_1651066629046171_7963007607891594700_n.png?stp=dst-png_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=F1e4j0rNpG0Q7kNvgHx5_yi&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&cb_e2o_trans=t&oh=03_Q7cD1QFK8ruqqjXG6Yds72L6pwq0y7sBJSbMhNds3Qh0eV6nlA&oe=66763655",
+                "price": 100
             }
 
     ]

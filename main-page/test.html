@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In | NewaSpice</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Sansita Swashed", system-ui;
+        }
+
+        /* :root{
+           --w:var(#BA9B65);
+        } */
+        .top {
+            background: #BA9B65;
+            width: auto;
+            height: 30px;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 28px;
+            background: linear-gradient(#D9D9D9, #737373);
+            width: 270px;
+        }
+
+        .srch {
+            font-size: 16px;
+            color: #BA9B65;
+            margin-left: 14px;
+            outline: none;
+            border: none;
+            background: transparent;
+        }
+
+        .Login {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 10px;
+            background: linear-gradient(#D9D9D9, #737373);
+            width: 100px;
+        }
+
+        .flex {
+            display: flex;
+            gap: 20px;
+        }
+
+        .color {
+            background: linear-gradient(#131313, #1C1C1C, #2B2B2B);
+            height: 95px;
+        }
+
+        .a.nav-link.active {
+            color: #BA9B65;
+        }
+
+        .a.nav-link {
+            color: #BA9B65;
+        }
+
+        /* section1 start*/
+        #hero {
+            width: auto;
+            height: 445px;
+            background: linear-gradient(#1E1E1E, #848484);
+        }
+
+        .bg {
+            color: white;
+        }
+
+        #hero-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .front {
+            font-size: 65px;
+            text-align: center;
+            padding: 70px;
+        }
+
+        .img {
+            transform: rotate(20deg);
+        }
+
+        /*section1 end*/
+        /*section2 start*/
+        #bg1 {
+            width: auto;
+            height: 565px;
+            background-color: #242424;  /*background: #BA9B65;*/
+            color: #fff;
+            display: flex;
+        }
+
+        .length {
+            margin-top: 20px;
+            padding: 57px;
+            line-height: 25px;
+        }
+
+        /*section2 end*/
+
+        /* section 3 Start */
+        .restrobar {
+            padding: 90px;
+        }
+
+        .fsize {
+            padding: 20px;
+            line-height: 35px;
+            margin:65px;
+        }
+
+        /* Section3 End */
+
+        /* Section4 Start */
+        .position {
+            position: relative;
+            bottom: 150px;
+            left: 100px;
+            color: #fff;
+            font-size: 25px;
+        }
+
+        .position1 {
+            position: relative;
+            bottom: 200px;
+            left: 800px;
+            color: black;
+            width: 200px;
+        }
+
+        /* Section4 End */
+        body {
+    font-family: Arial, sans-serif;
+  }
+  
+.card {
+    display: flex;
+    width: 450px;
+    height: 250px;
+    flex-direction: row !important;
+    border: none !important;
+    margin: 0 0 20px 0;
+}
+  
+  .image-container {
+    width: 152%;
+    height: 100%;
+  }
+  
+  .image-container img {
+    width: 72%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    position: absolute;
+    z-index: 9999;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  .info {
+    width: 100%;
+    height: 85%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    clip-path: polygon(0 100%, 30% 0, 100% 0%, 100% 100%);
+    position: relative;
+}
+  
+  .info h3 {
+    margin: 60px 0 0 30px;
+    font-size: 2rem;
+  }
+  
+  .price {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin: 10px 0 0 30px;
+  }
+  
+  .btn {
+    background-color: #fff !important;
+    color: black !important;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 0 0 20px;
+  }
+  
+  .btn:hover {
+    background-color: goldenrod;
+  }
+  
+        /* Footer Start */
+        .container1 {
+            background-color: #242424;
+            color: #fff;
+            height: 300px;
+        }
+
+        /*  Footer End */
+    </style>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div class="top"></div>
+    </header>
+    <!-- Header End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg color">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="/photos/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item ">
+                        <a class="nav-link active a " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a" href="#"> Services</a>
+                    </li>
+                </ul>
+
+                <form class="flex">
+                    <div class="search">
+                        <span><i class="bi bi-search"></i></span>
+                        <input class="srch" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+                    <div class="Login">
+                        <span><i class="bi bi-person-circle"></i></span>
+                        <input type="text" class="srch" placeholder="Log In">
+                    </div>
+                    <div class="Login">
+                        <span><i class="bi bi-box-arrow-in-right"></i></span>
+                        <input type="text" class="srch" placeholder="Sign In">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Section1 Start -->
+    <section id="hero">
+        <div class="container">
+            <div id="hero-content">
+                <div class="col-lg-7 bg">
+                    <h1 class="front">Discover the Sweet Tradition of Yomari</h1>
+                </div>
+                <div class="col-lg-5">
+                    <img class="img" width="400px" src="/photos/yomari.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section1 End -->
+    <!-- Section2 Start -->
+    <section id="bg1">
+        <div class="container flex">
+            <div class="col-lg-5 text-center fsize ">
+                <h2 class="fs-2">A few highlights from our menu </h2>
+                <p class="fs-5">Join us at Newa Spice for an
+                    unforgettable dining adventure.
+                    Whether you're a fan of bold flavors or
+                    prefer something mild, we have
+                    something to delight every palate.
+                    <br>
+                    Come and taste the tradition!
+                </p>
+            </div>
+            <div class=" col-lg-6 length">
+                <div class="flex m-4 ">
+                    <img width="100px" height="100px" src="/photos/momopart2.png" alt="">
+                    <div>
+                        <p>Mo:mo</p>
+                        <p>Locally famous Mo:oms with <br>
+                            different fillings and amazing taste</p>
+                    </div>
+                </div>
+                <div class="flex m-4">
+                    <img width="100px" height="100px" src="/photos/samosa.png" alt="">
+                    <div>
+                        <p>Samosa</p>
+                        <p>Locally famous Mo:oms with <br>
+                            different fillings and amazing taste</p>
+                    </div>
+                </div>
+                <div class="flex m-4">
+                    <img width="100px" height="100px" src="/photos/dosa.png" alt="">
+                    <div>
+                        <p>Chataa mari</p>
+                        <p>Locally famous Mo:oms with <br>
+                            different fillings and amazing taste</p>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+    <!-- Section2 End -->
+     <section>
+        <h2 class="top fs-2 m-3">Top Menu</h2>
+        <div class="top d-flex justify-content-around" id="container">
+            
+        </div><br>
+     </section>
+    <!-- Section3 Start -->
+    <section>
+        <div class="container">
+            <div class="flex restrobar">
+                <div class="col-lg-6 ">
+                    <img width="300px" height="350px" src="/photos/Restro.png" alt="">
+                </div>
+                <div class=" col-lg-6 text-center">
+                    <p class="fs-3 fw-bold">Craving Authentic Nepalese Flavors?</p>
+                    <p class="fsize">Treat yourself to Newa Spice's delicious Momo
+                        dumplings, spicy Sekuwa, and aromatic Dal Bhat.
+                        Ordering is easy—just browse our menu online and
+                        place your order in a few clicks.
+
+                        Experience the rich flavors of Nepal right at your
+                        doorstep. Order now and enjoy a culinary adventure
+                        from the comfort of your home!</p>
+                    <button type="button" class="btn btn-dark">Place your Order</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section3 End -->
+    <!-- Section4 Start -->
+    <section>
+        <div class="container">
+            <div>
+                <img width="1260px" src="/photos/Delicious.png" alt="">
+                <p class="position">Would you like to make a reservation?</p>
+                <button type="button" class="btn btn-light  position1">Book a table</button>
+            </div>
+        </div>
+    </section>
+    <!-- Section4 End -->
+    <!-- Footer Start-->
+
+    <footer>
+        <div class="container1">
+            <div class="d-flex justify-content-around p-4">
+                <div>
+                    <img width="200px" height="200px" src="/photos/blacklogo.png" alt="">
+                </div>
+                <div class="p-2">
+                    <p>Baneshwor, Kathmandu <br>
+                        Nepal <br>
+                        6611211 <br>
+                        info@newaspice.com <br>
+                    </p>
+                </div>
+                <div class="p-2">
+                    <p>Open Times: <br>
+                        9:00 am - 10:00 pm <br>
+                    </p>
+                </div>
+
+            </div>
+            <p class="d-flex justify-content-around ">Copyright@2024</p>
+        </div>
+    </footer>
+    <!-- Footer End-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

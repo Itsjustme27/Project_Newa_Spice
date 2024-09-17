@@ -11,7 +11,7 @@ export default function Form() {
                     <img src={newaLogo} alt="logo" className='newa-logo'  />
                 </div>
                 <div className="form-box d-flex flex-row  align-items-center ">
-                    <form action="./main-page/index.html" className="form d-flex  align-items-center">
+                    <form className="form d-flex  align-items-center">
                         <div className="inputs d-flex flex-column gap-1">
                             <label htmlFor="fname" className='form-label'>Full Name</label>
                             <input type="text" id='fname' className='form-control' placeholder='Name' />
@@ -27,7 +27,8 @@ export default function Form() {
                         </div>
                         <hr />
                         <div className="links d-flex flex-column justify-content-between align-items-center gap-4">
-                                <a href="/index.html"><button type="submit" className='button btn btn-outline-light fs-5'    id='submit'>Log In</button></a>                            <h5>OR</h5>
+                                <button type="submit" className='button btn btn-outline-light fs-5'    id='submit'>Log In</button>    
+                                 <h5>OR</h5>
                                 <button className='button btn btn-outline-light fs-5'><img src={fb} alt="Facebook" className='fb' />Facebook</button>
                                 <button className='button btn btn-outline-light fs-5'><img src={google} alt="google" className='google' />Google</button>
                         </div>
